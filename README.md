@@ -113,7 +113,7 @@ class CustomStrategy:
 ```
 
 ### Example Output
-
+The final portfolio report printed to terminal:
 ```
 ===========
 Final Portfolio Report: 
@@ -127,6 +127,18 @@ Total Portfolio Value: 46946.00
 
 Delta: -3054.00
 ```
+
+Example graphs displayed if chosen:
+
+Total portfolio shows cash + assets in form of stocks over time:
+![Total Portfolio Graph](example_graphs/total_portfolio.png)
+
+Positions performance shows number of each stock held over time:
+![Positions Performance Graph](example_graphs/positions_performance.png)
+
+Cash balance shows amount of liquid cash held not in stocks from intial capital over time:
+![Cash Balance Graph](example_graphs/cash_balance.png)
+
 
 ## Architecture
 
